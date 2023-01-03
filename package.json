@@ -1,0 +1,18 @@
+{
+  "name": "substrate-polkadot",
+  "version": "1.0.0",
+  "description": "home work",
+  "main": "./build/index.js",
+  "scripts": {
+    "watch": "npx tsc && node build/index.js",
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@polkadot/api": "^9.10.3"
+  }
+}
